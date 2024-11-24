@@ -59,7 +59,7 @@ const criaCardAtleta = (atleta) => {
 
 criaBotao('Masculino', 'masc', 'masculino')
 criaBotao('Feminino', 'fem', 'feminino')
-criaBotao('Todos', 'all', 'all')
+criaBotao('Todes', 'all', 'all')
 
 
 const fetchData = async (endPoint) => {
