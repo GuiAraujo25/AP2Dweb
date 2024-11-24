@@ -47,7 +47,7 @@ const criaCardAtleta = (atleta) => {
     saibaMais.textContent = 'Saiba mais'
     saibaMais.className = 'saibaMais'
     saibaMais.onclick = () => {
-        window.location.href = `/detalhes.html?id=${atleta.id}`
+        window.location.href = `detalhes.html?id=${atleta.id}`
     }
 
     cardAtleta.appendChild(imagem)
