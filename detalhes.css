@@ -16,7 +16,7 @@ body, html {
   background-position: center;  
   background-repeat: no-repeat;  
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: cursive;
 }
 
 
@@ -27,6 +27,7 @@ body, html {
   padding: 1.5rem;
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
+  font-family: serif;
   display: grid;
   justify-content: center;
   width: 60rem;

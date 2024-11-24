@@ -27,6 +27,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: cursive;
   }
   
   #elencos button:hover {
@@ -104,6 +105,7 @@
     margin: 15px 0;
     font-size: 1.2rem;
     font-weight: bold;
+    font-family: monospace;
   }
   
   .saibaMais {
