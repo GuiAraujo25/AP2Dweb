@@ -122,6 +122,11 @@
     background-color: #292b29;
   }
   
+  h3{
+    color: white;
+    text-align: center;
+    margin: 22%;
+  }
   
   #atletas {
     display: grid;
