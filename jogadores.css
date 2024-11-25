@@ -149,29 +149,36 @@
   @media (max-width: 768px) {
     #atletas {
       grid-template-columns: 1fr; 
+      width: 70%;
     }
   }
 
   @media (max-width: 768px) {
     #pesquisa {
-      width: 100%; 
+      width: 60%; 
       margin-bottom: 20px;
     }
   }
 
   @media (max-width: 768px) {
     #logo {
-        width: 50px; /* ajusta tamanho da logo */
-        top: 10px;
-        left: 10px;
+        width: 60px; 
+        top: 15px;
+        left: 15px;
     }
 
     #sair {
-        padding: 5px 10px;
-        font-size: 0.9rem;
-        top: 10px;
-        right: 10px;
+        padding: 7px 14px;
+        font-size: 1.8rem;
+        top: 20px;
+        right: 20px;
     }
   }
   
+@media (max-width: 768px) {
+  #elencos .btn {
+      margin-top: 10%;
+  }
+}
+
   
