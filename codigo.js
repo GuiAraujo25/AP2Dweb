@@ -1,21 +1,15 @@
-import { hex_sha256 } from './sha256-min.mjs'
-
-const password = "d92bd848b840b2933bc86e1eb1229865d66e8752d1fcdbda984c8fe673c229ea"
-const complement = "CHAVE"
-
-sessionStorage.setItem('logado', 'false')
-
-
-document.getElementById("button_login").onclick =
-    ()=>{
-        const password_inputed = document.getElementById("input_login").value
-        const password_hashed = hex_sha256(password_inputed + complement)
-        if(password_hashed == password){
-            window.location.href = "jogadores.html"
-            sessionStorage.setItem('logado', 'true')
-            
-        }
-        else{
-            alert("Senha Incorreta")
-            }
+const login = () => {
+    const hash_senha = 'afd51a42537144fe0b233499d8f2bc22fb25e4998da668ef4cc7e5b9b0db13d6'
+    const senha = document.getElementById('input_login').value
+    
+    if (hash_senha === hex_sha256(senha)) {
+            sessionStorage.setItem('logado', 'sim');
+    
+    
+            window.location = 'jogadores.html'
+    
+    } else {
+            alert("Senha incorreta!")
+    
     }
+}

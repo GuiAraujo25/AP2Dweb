@@ -129,6 +129,6 @@ if (sessionStorage.getItem('logado')){
 
 } else {
     const deslogado = document.createElement('h1');
-    deslogado.innerHTML = 'Acesso negado, faça login para acessar essa página';
+    deslogado.innerHTML = 'Indisponivel, faça login';
     document.body.appendChild(deslogado);
 }
